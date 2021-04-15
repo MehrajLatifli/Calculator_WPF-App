@@ -1,0 +1,14 @@
+﻿<Application x:Class="Calculator_WPF_App.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:Calculator_WPF_App"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <Style x:Key="CalculatorFont">
+            <Setter Property="TextElement.FontFamily" Value="/Fonts/#Calculator"></Setter>
+        </Style>
+        <Style x:Key="CooperBlackFont">
+            <Setter Property="TextElement.FontFamily" Value="/Fonts/#Cooper Black"></Setter>
+        </Style>
+    </Application.Resources>
+</Application>
